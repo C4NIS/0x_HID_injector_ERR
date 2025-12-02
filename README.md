@@ -1,7 +1,17 @@
-> BOOT_SEQUENCE_INIT...
-> LOADING_KERNEL [OK]
-> MOUNTING_FS: /dev/sda1... [OK]
-> EXECUTING: 
-> STATUS: STEALTH_MODE_ACTIVE
-> TARGET: CONNECTED
-____________________________________________________
+```
+  ERROR: MEMORY_LEAK_DETECTED at 0x004F
+  RECOVERING_DATA...
+  
+   _______      __    __ _____ _____        _       _           _               
+  |  _  \ \    / /   |  |  __ \_   _|      (_)     | |         | |              
+  | |/' |\ \  / /    |  | |  \/ | | _ __    _  ___ | |_ ___ _ _| |__   ___ _ __ 
+  |  /| | \ \/ /_    |  | | __  | || '_ \  | |/ _ \| __/ _ \ '__| '_ \ / _ \ '__|
+  \ |_/ / /  \ \ \__ |  | |_\ \_| || | | | | | (_) | ||  __/ |  | |_) |  __/ |   
+   \___/ / /\ \ \__/ \__/\____/\___/_| |_| | |\___/ \__\___|_|  |_.__/ \___|_|   
+        /_/  \_\                        _/ |                                     
+                                       |__/  
+                                       
+  >> REPO: 0x_HID_injector_ERR
+  >> STATUS: [UNDETECTED]
+  >> TARGET: WINDOWS_10/11
+  >> PROTOCOL: USB_HID_OVERRIDE
